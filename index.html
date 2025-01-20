@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+
+    <form action="">
+        <div class="row g-3 row-cols-2">
+
+
+          
+
+<!-- Nome e cognome -->
+          <div class="col">
+            <input id="nameField" class="form-control" placeholder="Nome Completo" type="text" id="name-field" required />
+          </div>
+
+<!-- Km da percorrere -->
+          <div class="col">
+            <input id="kmField" class="form-control" placeholder="Km da percorrere" type="text" id="company-field" required />
+          </div>
+
+<!-- Fascia d'età -->
+          <div class="col">
+            <select id="fasciaEtaField" class="form-select">
+              <option value="">Fascia d'eta'</option>
+              <option value="Minorenne">Minorenne</option>
+              <option value="Maggiorenne.">Maggiorenne</option>
+              <option value="Over65">Over 65</option>
+            </select>
+          </div>
+
+
+<!-- Bottone Submit -->
+          <div class="col">
+            <button id="button" class="btn btn-primary ">Conferma</button>
+          </div>
+        </div>
+      </form>
+
+
+
+
+
+    <div class="col-8">
+        <p><span>Nome e Cognome: </span><span id="name"></span></p>
+        <p><span>Prezzo del biglietto: </span><span id="price"></span></p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
